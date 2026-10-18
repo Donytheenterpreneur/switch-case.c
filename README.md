@@ -5,7 +5,7 @@
 int main() {
     int choice;
 
-    // Prompt user for input
+    
     printf("Select an option (1-3):\n");
     printf("1. Say Hello\n");
     printf("2. Say Goodbye\n");
@@ -13,7 +13,7 @@ int main() {
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
-    // Switch case evaluation
+    
     switch (choice) {
         case 1:
             printf("Hello! Have a wonderful day.\n");
